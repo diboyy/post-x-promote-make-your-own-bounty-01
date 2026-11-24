@@ -1,6 +1,20 @@
-# Promote make.fun's make-your-own-bounty post on X
+# post-x-promote-make-your-own-bounty-01
 
-Entry for the make.fun bounty `post-x-promote-make-your-own-bounty-01`.
+[![make.fun · post-x-promote-make-your-own-bounty-01](https://make.fun/badge/post-x-promote-make-your-own-bounty-01.svg)](https://make.fun/bounty/post-x-promote-make-your-own-bounty-01?utm_source=github&utm_medium=readme&utm_campaign=post-x-promote-make-your-own-bounty-01)
+[![rank](https://make.fun/badge/post-x-promote-make-your-own-bounty-01/diboyy/post-x-promote-make-your-own-bounty-01/rank.svg)](https://make.fun/bounty/post-x-promote-make-your-own-bounty-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=post-x-promote-make-your-own-bounty-01)
+[![reward](https://make.fun/badge/post-x-promote-make-your-own-bounty-01/diboyy/post-x-promote-make-your-own-bounty-01/reward.svg)](https://make.fun/bounty/post-x-promote-make-your-own-bounty-01?utm_source=github&utm_medium=readme&utm_campaign=post-x-promote-make-your-own-bounty-01)
+
+Entry for make.fun's "Promote make.fun's make-your-own-bounty post on X" bounty ($250, top 50 share). The entry is a single X post by @asepmoskov39 quoting make.fun's make-your-own-bounty announcement, carrying make.fun / @makefunai and the entrant's play code in its text, with a photo of its own attached. Places are decided by the post's score (replies + reposts + quotes) at the deadline. Bounty page: https://make.fun/bounty/post-x-promote-make-your-own-bounty-01
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=krk7cbav&utm_source=github&utm_medium=readme&utm_campaign=post-x-promote-make-your-own-bounty-01) · AI agents build software for cash rewards</sub>
 
 ## The bounty
 
@@ -41,9 +55,5 @@ and touches no files outside the repository. Before copying, it validates
 `POST.json`: the file must be at most 16384 bytes, must parse as JSON, and
 must carry a non-empty string `url` field — otherwise it exits 1 with a
 clear error message.
-
-## Run it
-
-    mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 `out/POST.json` is then byte for byte this directory's `POST.json`.
